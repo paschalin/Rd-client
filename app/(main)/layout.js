@@ -15,34 +15,34 @@ const merrweather = Merriweather({
 
 
 export const metadata = {
-  title: 'Scriblo | Empowering Writers',
+  title: 'reedboss | Empowering Writers',
   description: 'Discover a powerful and intuitive blogging platform that empowers writers to share their ideas with the world. Our application provides a seamless user experience, advanced collaboration features, and a thriving community. Join our waitlist today and be the first to experience the future of blogging.',
   alternates: {
     canonical: `${process.env.APP_URL}`
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Scriblo | Empowering Writers",
+    title: "reedboss | Empowering Writers",
     description: 'Discover a powerful and intuitive blogging platform that empowers writers to share their ideas with the world. Our application provides a seamless user experience, advanced collaboration features, and a thriving community. Join our waitlist today and be the first to experience the future of blogging.',
     siteId: '1467726470533754880',
-    creator: '@myscriblo',
+    creator: '@myreedboss',
     creatorId: '1467726470533754880',
     images: [
       {
-        url: 'https://scriblo.s3.us-east-2.amazonaws.com/branding/brand_logo_black.png',
-        alt: 'Scriblo | Empowering Writers'
+        url: 'https://reedboss.s3.us-east-2.amazonaws.com/branding/brand_logo_black.png',
+        alt: 'reedboss | Empowering Writers'
       }
     ],
   },
   openGraph: {
-    title: 'Scriblo | Empowering Writers',
+    title: 'reedboss | Empowering Writers',
     description: 'Discover a powerful and intuitive blogging platform that empowers writers to share their ideas with the world. Our application provides a seamless user experience, advanced collaboration features, and a thriving community. Join our waitlist today and be the first to experience the future of blogging.',
     url: `${process.env.APP_URL}`,
-    siteName: "Scriblo",
+    siteName: "reedboss",
     images: [
       {
-        url: 'https://scriblo.s3.us-east-2.amazonaws.com/branding/brand_logo_black.png',
-        alt: 'Scriblo'
+        url: 'https://reedboss.s3.us-east-2.amazonaws.com/branding/brand_logo_black.png',
+        alt: 'reedboss'
       }
     ],
     locale: 'en_US',

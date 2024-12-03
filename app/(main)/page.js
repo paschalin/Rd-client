@@ -8,7 +8,7 @@ import { authOptions } from "../authentication/[...nextauth]/route";
 import RecommendedTopics from "@/Components/RecommendedTopics";
 import { headers } from "next/headers";
 import { getTagID, getTagIDs } from "@/public/util/helpers";
-import PromoteScriblo from "@/Components/PromoteScriblo";
+import Promotereedboss from "@/Components/Promotereedboss";
 import ReadOurBlogCTASide from "@/Components/ReadOurBlogCTASide";
 import SubscribeCTA from "@/Components/SubscribeCTA";
 // import next from "next/types";
@@ -114,7 +114,7 @@ export default async function Home({ params, searchParams }) {
           />
           <br />
           <br />
-          <PromoteScriblo />
+          <Promotereedboss />
           <br />
           <br />
           <ReadOurBlogCTASide />

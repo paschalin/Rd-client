@@ -53,7 +53,7 @@ function Signup() {
   };
 
   function convertToS3Url(objectKey) {
-    const s3Url = `https://scriblo.s3.us-east-2.amazonaws.com/avatars/${objectKey}.jpg`;
+    const s3Url = `https://reedboss.s3.us-east-2.amazonaws.com/avatars/${objectKey}.jpg`;
 
     return s3Url;
   }
@@ -144,11 +144,11 @@ function Signup() {
     { name: "Photography Tips", emoji: "📸" },
   ];
   const avatarList = [
-    "https://scriblo.s3.us-east-2.amazonaws.com/avatars/av1.jpg",
-    "https://scriblo.s3.us-east-2.amazonaws.com/avatars/av2.jpg",
-    "https://scriblo.s3.us-east-2.amazonaws.com/avatars/av3.jpg",
-    "https://scriblo.s3.us-east-2.amazonaws.com/avatars/av4.jpg",
-    "https://scriblo.s3.us-east-2.amazonaws.com/avatars/av5.jpg",
+    "https://reedboss.s3.us-east-2.amazonaws.com/avatars/av1.jpg",
+    "https://reedboss.s3.us-east-2.amazonaws.com/avatars/av2.jpg",
+    "https://reedboss.s3.us-east-2.amazonaws.com/avatars/av3.jpg",
+    "https://reedboss.s3.us-east-2.amazonaws.com/avatars/av4.jpg",
+    "https://reedboss.s3.us-east-2.amazonaws.com/avatars/av5.jpg",
   ];
 
   const handleSelectedInterests = (interest) => {
@@ -331,9 +331,9 @@ function Signup() {
     <div className="signup">
       {stage[1] == "signup" && (
         <div className="signupContainer">
-          <h1 className="signupHeading">Signup for Scriblo</h1>
+          <h1 className="signupHeading">Signup for reedboss</h1>
           <p className="signupSubHeading">
-            Scriblo is a powerful and intuitive blogging platform that empowers
+            reedboss is a powerful and intuitive blogging platform that empowers
             writers
           </p>
           <div className="signupForm">
@@ -369,7 +369,7 @@ function Signup() {
               {/* <button className="socialbutton">
                 <span
                   style={{
-                    backgroundImage: `url('https://scriblo.s3.us-east-2.amazonaws.com/branding/apple_logo_white.png')`,
+                    backgroundImage: `url('https://reedboss.s3.us-east-2.amazonaws.com/branding/apple_logo_white.png')`,
                   }}
                   className="sociallogo"
                 ></span>
@@ -387,7 +387,7 @@ function Signup() {
               >
                 <span
                   style={{
-                    backgroundImage: `url('https://scriblo.s3.us-east-2.amazonaws.com/branding/google_logo.png')`,
+                    backgroundImage: `url('https://reedboss.s3.us-east-2.amazonaws.com/branding/google_logo.png')`,
                   }}
                   className="sociallogo"
                 ></span>
@@ -474,7 +474,7 @@ function Signup() {
                 className={`avatar ${defaultAvatar == '' && "customAvatar"} ${defaultAvatar !== "" && "selectedAvatar"}`}
                 style={{
                   background:
-                    `url(${defaultAvatar != "" ? defaultAvatar : "https://scriblo.s3.us-east-2.amazonaws.com/avatars/avDefault.jpg"})`,
+                    `url(${defaultAvatar != "" ? defaultAvatar : "https://reedboss.s3.us-east-2.amazonaws.com/avatars/avDefault.jpg"})`,
                 }}
               ></div>
               {avatarList.map((avatarLink, index) => (

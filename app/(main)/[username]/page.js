@@ -90,7 +90,7 @@ export const generateMetadata = async (props) => {
         title: user.name,
         description: user.bio !== '' ? user.bio : user.name,
         siteId: '1467726470533754880',
-        creator: '@myscriblo',
+        creator: '@myreedboss',
         creatorId: '1467726470533754880',
         images: [
           {
@@ -103,7 +103,7 @@ export const generateMetadata = async (props) => {
         title: user.name,
         description: user.bio !== '' ? user.bio : user.name,
         url: `${process.env.APP_URL}${user.authorUsername}`,
-        siteName: "Scriblo",
+        siteName: "reedboss",
         images: [
           {
             url: user.avatar,

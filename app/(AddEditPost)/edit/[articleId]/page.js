@@ -148,7 +148,7 @@ function ArticleEdit({ params }) {
   }
 
   function convertToS3Url(objectKey) {
-    const s3Url = `https://scriblo.s3.us-east-2.amazonaws.com/images/${objectKey}.jpg`;
+    const s3Url = `https://reedboss.s3.us-east-2.amazonaws.com/images/${objectKey}.jpg`;
 
     return s3Url;
   }
@@ -283,7 +283,7 @@ function ArticleEdit({ params }) {
 
         if (coverImage.localSrc !== "" || coverImage.file !== null) {
           if (
-            coverImage.localSrc.includes("scriblo.s3.us-east-2.amazonaws.com")
+            coverImage.localSrc.includes("reedboss.s3.us-east-2.amazonaws.com")
           ) {
             formData.append("coverImage", coverImage.localSrc);
           } else {

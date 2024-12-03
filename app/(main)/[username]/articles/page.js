@@ -146,12 +146,12 @@ function userArticles({ params }) {
                           className="previewUrl"
                           onClick={() => {
                             copyToClipboard(
-                              `myscriblo.com/preview/${post?.previewSlug}`
+                              `myreedboss.com/preview/${post?.previewSlug}`
                             );
                             alert("url copied");
                           }}
                         >
-                          myscriblo.com/preview/{post?.previewSlug}
+                          myreedboss.com/preview/{post?.previewSlug}
                         </span>{" "}
                         <button>view code</button>
                       </div>

@@ -4,7 +4,7 @@ import { source_Sans_Pro } from "@/public/util/fonts";
 import "../../../Styles/home.css";
 import "../../../Styles/search.css";
 import OptionsBar from "../../../Components/OptionsBar";
-import PromoteScriblo from "@/Components/PromoteScriblo";
+import Promotereedboss from "@/Components/Promotereedboss";
 import ArticleShowcase from "@/Components/ArticleShowcase";
 import ArticleCard from "@/Components/ArticleCard";
 import NotFound from "@/Components/NotFound";
@@ -64,7 +64,7 @@ async function Search({ searchParams }) {
       </div>
 
       <div className="searchSideBar">
-        <PromoteScriblo />
+        <Promotereedboss />
       </div>
     </div>
   );

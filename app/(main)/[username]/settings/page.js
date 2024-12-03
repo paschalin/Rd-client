@@ -76,7 +76,7 @@ function Settings({params}) {
         return s3Result.$metadata;
       };
       function convertToS3Url(objectKey) {
-        const s3Url = `https://scriblo.s3.us-east-2.amazonaws.com/avatars/${objectKey}.jpg`;
+        const s3Url = `https://reedboss.s3.us-east-2.amazonaws.com/avatars/${objectKey}.jpg`;
     
         return s3Url;
       }

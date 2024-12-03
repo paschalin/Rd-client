@@ -137,7 +137,7 @@ const FeedBack = () => {
             ) : (
               <>
                 <div className="formField">
-                  <h3>How can we make Scriblo better?</h3>
+                  <h3>How can we make reedboss better?</h3>
                   <textarea value={feedbackProblem} onChange={(e) => setfeedbackProblem(e.target.value)}></textarea>
                 </div>
               </>
@@ -150,7 +150,7 @@ const FeedBack = () => {
         {feedbackStage == 3 && (
             <div className="stageThree">
                 <h3>Feedback Received ✅</h3>
-                <p>Thanks for your contribution to make scriblo better. Our team will use the information provided to make scriblo better.</p>
+                <p>Thanks for your contribution to make reedboss better. Our team will use the information provided to make reedboss better.</p>
                 <button onClick={() => setshowFeedBackForm(false)} className="closeBtn">Close</button>
             </div>
         )}

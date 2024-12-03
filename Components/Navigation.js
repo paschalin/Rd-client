@@ -33,7 +33,7 @@ function Navigation() {
           {/* <SearchIcon className="searchIcon" /> */}
           <input
             type="search"
-            placeholder="Search Scriblo"
+            placeholder="Search reedboss"
             onKeyUp={(e) => handleSearch(e)}
           />
         </div>

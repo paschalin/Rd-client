@@ -14,7 +14,7 @@ function HomepageTrending({trends, source_Sans_Pro}) {
         <div className="header">
             <div className="headerTexts">
                 
-            <h2>Trending on Scriblo</h2>
+            <h2>Trending on reedboss</h2>
             <p>Discover trending stroies from writers on any topic</p>
             </div>
             <button className='headerBtn'><ArrowRightAltIcon /></button>

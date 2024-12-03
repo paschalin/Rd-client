@@ -1,4 +1,4 @@
-// File: C:\Users\MACHI\Desktop\machi p\rd\scriblo-client\app\test\page.js
+// File: C:\Users\MACHI\Desktop\machi p\rd\reedboss-client\app\test\page.js
 import * as entry from '../../../../app/test/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,4 +1,4 @@
-// File: C:\Users\MACHI\Desktop\machi p\rd\scriblo-client\app\authentication\[...nextauth]\route.js
+// File: C:\Users\MACHI\Desktop\machi p\rd\reedboss-client\app\authentication\[...nextauth]\route.js
 import * as entry from '../../../../../app/authentication/[...nextauth]/route.js'
 import type { NextRequest } from 'next/server.js'
 

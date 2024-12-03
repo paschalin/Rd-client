@@ -9,7 +9,7 @@ function NotFound({ reason, searchClass }) {
           <div
             className="notfoundBG"
             style={{
-              background: `url(https://scriblo.s3.us-east-2.amazonaws.com/branding/empty-box.png)`,
+              background: `url(https://reedboss.s3.us-east-2.amazonaws.com/branding/empty-box.png)`,
             }}
           ></div>
           <h3>Oops! Category Not Found</h3>
@@ -32,7 +32,7 @@ function NotFound({ reason, searchClass }) {
           <div
             className="notfoundBG"
             style={{
-              background: `url(https://scriblo.s3.us-east-2.amazonaws.com/branding/sad+man.png)`,
+              background: `url(https://reedboss.s3.us-east-2.amazonaws.com/branding/sad+man.png)`,
             }}
           ></div>
           <h3>Snap! No Post Found For That Category</h3>
@@ -56,8 +56,8 @@ function NotFound({ reason, searchClass }) {
             style={{
               background: `url(${
                 searchClass == "articles" || searchClass == "tags"
-                  ? "https://scriblo.s3.us-east-2.amazonaws.com/branding/sad+man.png"
-                  : "https://scriblo.s3.us-east-2.amazonaws.com/branding/no+user.png"
+                  ? "https://reedboss.s3.us-east-2.amazonaws.com/branding/sad+man.png"
+                  : "https://reedboss.s3.us-east-2.amazonaws.com/branding/no+user.png"
               })`,
             }}
           ></div>
@@ -98,7 +98,7 @@ function NotFound({ reason, searchClass }) {
           <div
             className="notfoundBG"
             style={{
-              background: `url(https://scriblo.s3.us-east-2.amazonaws.com/branding/sad+man.png)`,
+              background: `url(https://reedboss.s3.us-east-2.amazonaws.com/branding/sad+man.png)`,
             }}
           ></div>
           <h3>Snap! This user has not written anything yet</h3>

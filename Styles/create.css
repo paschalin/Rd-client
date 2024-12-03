@@ -16,7 +16,7 @@
 .addPostNavigation .logo .logoImg {
   width: 120px;
   height: 100%;
-  background: url("https://scriblo.s3.us-east-2.amazonaws.com/branding/brand_logo_black.png");
+  background: url("https://reedboss.s3.us-east-2.amazonaws.com/branding/brand_logo_black.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

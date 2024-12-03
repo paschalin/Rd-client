@@ -41,7 +41,7 @@ function Verification() {
         <>
           <h1>Verification Application</h1>
           <p>
-            Get help with your verification request for Scriblo. Information
+            Get help with your verification request for reedboss. Information
             shared will only be used to respond to your request.
           </p>
 
@@ -68,7 +68,7 @@ function Verification() {
               type="email"
             />
             <small>
-              The username can be found on an account's Scriblo profile.
+              The username can be found on an account's reedboss profile.
             </small>
           </div>
 

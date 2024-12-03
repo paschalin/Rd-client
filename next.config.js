@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 
-// const API_URL = 'http://localhost/scriblo-server/api'
-// const API_URL = 'http://localhost/scriblo-server/api'
-// const API_URL = 'https://api.myscriblo.com/api'
+// const API_URL = 'http://localhost/reedboss-server/api'
+// const API_URL = 'http://localhost/reedboss-server/api'
+// const API_URL = 'https://api.myreedboss.com/api'
 const API_URL = process.env.API_URL;
 const nextConfig = {
   trailingSlash: true,
@@ -10,7 +10,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "scriblo.s3.us-east-2.amazonaws.com",
+        hostname: "reedboss.s3.us-east-2.amazonaws.com",
       },
     ],
   },

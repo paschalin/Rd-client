@@ -174,7 +174,7 @@ export const generateMetadata = async (props) => {
         title: post.title,
         description: post.desciption,
         siteId: '1467726470533754880',
-        creator: '@myscriblo',
+        creator: '@myreedboss',
         creatorId: '1467726470533754880',
         images: [
           {
@@ -187,7 +187,7 @@ export const generateMetadata = async (props) => {
         title: post.title,
         description: post.summary,
         url: `${process.env.APP_URL}${post.authorUsername}/${params.slug}`,
-        siteName: "Scriblo",
+        siteName: "reedboss",
         images: [
           {
             url: post.coverImage,

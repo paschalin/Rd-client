@@ -12,7 +12,7 @@ const merrweather = Merriweather({
 })
 
 export const metadata = {
-  title: 'Scriblo',
+  title: 'reedboss',
   description: 'Discover a powerful and intuitive blogging platform that empowers writers to share their ideas with the world. Our application provides a seamless user experience, advanced collaboration features, and a thriving community. Join our waitlist today and be the first to experience the future of blogging.',
 }
 

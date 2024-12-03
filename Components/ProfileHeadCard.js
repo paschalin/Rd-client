@@ -32,7 +32,7 @@ function ProfileHeadCard({
     }
   };
 
-  const verificationLink = 'https://www.myscriblo.com/scriblo_official/requirements-to-apply-for-a-verified-badge-on-scriblo-23/'
+  const verificationLink = 'https://www.myreedboss.com/reedboss_official/requirements-to-apply-for-a-verified-badge-on-reedboss-23/'
   // console.log(follows)
   return (
     <div className="profileHeadCardContainer">

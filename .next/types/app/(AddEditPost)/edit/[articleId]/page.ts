@@ -1,4 +1,4 @@
-// File: C:\Users\MACHI\Desktop\machi p\rd\scriblo-client\app\(AddEditPost)\edit\[articleId]\page.js
+// File: C:\Users\MACHI\Desktop\machi p\rd\reedboss-client\app\(AddEditPost)\edit\[articleId]\page.js
 import * as entry from '../../../../../../app/(AddEditPost)/edit/[articleId]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
